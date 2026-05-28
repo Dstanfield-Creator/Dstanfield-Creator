@@ -1,6 +1,6 @@
 Hi there 👋
 
-I'm Danny, a Junior SecOps Analyst passionate about cybersecurity, detection engineering, automation, and security operations.
+I'm Danny, a Analyst passionate about cybersecurity, detection engineering, automation, and security operations.
 
 🔭 I’m currently working on: Building and organizing SecOps infrastructure, GitHub security workflows, and automation projects
 🌱 I’m currently learning: Detection engineering, SIEM workflows, GitHub security best practices, and cloud security
