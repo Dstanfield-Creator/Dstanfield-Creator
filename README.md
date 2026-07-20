@@ -6,7 +6,7 @@ and network operations.
 
 Day to day I triage alerts across SIEM, endpoint, and network platforms, chase down
 identity and sign-in anomalies, and build LLM-driven tooling that takes the grind out of
-triage, investigation, and reporting. Outside of work I run **NXDH**, a self-hosted
+triage, investigation, and reporting. Outside of work I run a self-hosted
 cyber-security homelab where I turn what I'm studying into things I've actually deployed.
 
 ---
