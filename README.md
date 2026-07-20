@@ -76,4 +76,4 @@ My GitHub contains documentation and guides across multiple domains:
 
 ---
 
-**LinkedIn:** [danny-stanfield](https://linkedin.com/in/danny-stanfield) | **Email:** d.stanfield.it@outlook.com | **GitHub:** [@Dstanfield-Creator](https://github.com/Dstanfield-Creator)
+**LinkedIn:** [danny-stanfield](https://linkedin.com/in/danny-stanfield) |  | **GitHub:** [@Dstanfield-Creator](https://github.com/Dstanfield-Creator)
