@@ -63,6 +63,7 @@ My GitHub contains documentation and guides across multiple domains:
 - Acronis Cyber Security Associate Advanced
 - Sophos Firewall Administrator
 - AWS Academy Cloud Foundations
+- Diploma Of Advanced Networking
 
 ---
 
