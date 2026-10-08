@@ -18,7 +18,9 @@ Cybersecurity professional focused on SIEM/EDR triage, Zero Trust architecture, 
 
 ## 📌 Featured Work
 
+- **[detections](https://github.com/Dstanfield-Creator/detections)** - detection-as-code: Sigma rules for a home SOC lab, mapped to MITRE ATT&CK and validated in CI
 - **[projects](https://github.com/Dstanfield-Creator/projects)** - 15 homelab and infrastructure write-ups with Mermaid diagrams, lessons learned and the scripts in use
+- **[lab-ops](https://github.com/Dstanfield-Creator/lab-ops)** - the homelab as code: Ansible host baseline, Docker Compose service stacks, Renovate
 - **[cyber-resources](https://github.com/Dstanfield-Creator/cyber-resources)** - detection engineering, threat hunting, and a technique and tool reference for a home SOC
 - **[server-administration](https://github.com/Dstanfield-Creator/server-administration)** - Linux and Windows hardening, Prometheus monitoring, and a Windows AD logging baseline for detection
 - **[cloud-infrastructure](https://github.com/Dstanfield-Creator/cloud-infrastructure)** - Terraform (Proxmox and AWS), a Prometheus/Grafana stack, cloud-init and a CLI reference
