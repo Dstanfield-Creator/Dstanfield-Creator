@@ -18,13 +18,15 @@ Cybersecurity professional focused on SIEM/EDR triage, Zero Trust architecture, 
 
 ## 🏢 Work by Department
 
-Every repository belongs to exactly one of seven departments. The full per-document index lives on [dstanfield-creator.github.io](https://dstanfield-creator.github.io/).
+Every repository belongs to exactly one of six departments. The full per-document index lives on [dstanfield-creator.github.io](https://dstanfield-creator.github.io/).
 
 ### 🛡️ Security Operations
-Detection engineering, threat hunting, offensive technique references and the lab range they are tested in.
+Detection engineering, the monitoring that feeds it, offensive technique references and the lab range they are tested in.
 
-- **[detections](https://github.com/Dstanfield-Creator/detections)** - detection-as-code: Sigma rules for a home SOC lab, mapped to MITRE ATT&CK and validated in CI, plus the [Windows AD logging baseline](https://github.com/Dstanfield-Creator/detections/blob/main/docs/windows-ad-logging-baseline-for-detection.md) the rules depend on
-- **[cyber-resources](https://github.com/Dstanfield-Creator/cyber-resources)** - 48 technique, tool and topic pages written from the defender's side, the [Ludus cyber range](https://github.com/Dstanfield-Creator/cyber-resources/tree/master/labs/ludus-cyber-range) and a HackTheBox tracker
+- **[cyber-resources](https://github.com/Dstanfield-Creator/cyber-resources)** - the whole department in one repo:
+  - [detections/](https://github.com/Dstanfield-Creator/cyber-resources/tree/master/detections) - detection-as-code: Sigma rules for a home SOC lab, mapped to MITRE ATT&CK and validated in CI, plus the [Windows AD logging baseline](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/detections/docs/windows-ad-logging-baseline-for-detection.md) the rules depend on
+  - [monitoring/](https://github.com/Dstanfield-Creator/cyber-resources/tree/master/monitoring) - [MyDashboard](https://github.com/Dstanfield-Creator/cyber-resources/tree/master/monitoring/mydashboard) lab health dashboard design, the [reference](https://github.com/Dstanfield-Creator/cyber-resources/tree/master/monitoring/compose/monitoring-stack) and [lab](https://github.com/Dstanfield-Creator/cyber-resources/tree/master/monitoring/compose/lab-monitoring) Prometheus/Grafana Compose stacks, [node_exporter setup](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/monitoring/docs/prometheus-node-exporter-setup.md)
+  - 48 technique, tool and topic pages written from the defender's side, the [Ludus cyber range](https://github.com/Dstanfield-Creator/cyber-resources/tree/master/labs/ludus-cyber-range) and a HackTheBox tracker
 
 ### 🖥️ Infrastructure & Platform
 Proxmox, backups, configuration management, hardening and the runbooks that keep it running.
@@ -48,11 +50,6 @@ Infrastructure as Code and cloud operations on AWS and Azure.
 AI agents with real operational reach, held to the same controls as a junior admin's service account.
 
 - **[ai-automation](https://github.com/Dstanfield-Creator/ai-automation)** - [Paperclip AI agents](https://github.com/Dstanfield-Creator/ai-automation/tree/main/paperclip-ai-agents) with least-privilege Proxmox/PBS tokens, protected VMs and a hardened host; n8n automation runs on the lab's Docker host
-
-### 📈 Monitoring & Observability
-Prometheus, Grafana and the alerts derived from real incidents.
-
-- **[monitoring](https://github.com/Dstanfield-Creator/monitoring)** - [MyDashboard](https://github.com/Dstanfield-Creator/monitoring/tree/main/mydashboard) lab health dashboard design, the [reference](https://github.com/Dstanfield-Creator/monitoring/tree/main/compose/monitoring-stack) and [lab](https://github.com/Dstanfield-Creator/monitoring/tree/main/compose/lab-monitoring) Compose stacks, and [node_exporter setup](https://github.com/Dstanfield-Creator/monitoring/blob/main/docs/prometheus-node-exporter-setup.md)
 
 ### 🔧 General IT & Service Desk
 Methodology, identity administration and the tooling that takes repetition out of first-line work.
