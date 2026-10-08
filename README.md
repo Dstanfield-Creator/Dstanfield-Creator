@@ -18,63 +18,47 @@ Cybersecurity professional focused on SIEM/EDR triage, Zero Trust architecture, 
 
 ## 🏢 Work by Department
 
-Everything on this GitHub is organised into seven departments. Each repo has a home department; folders that belong elsewhere are listed under the department they serve. The full per-document index lives on [dstanfield-creator.github.io](https://dstanfield-creator.github.io/).
+Every repository belongs to exactly one of seven departments. The full per-document index lives on [dstanfield-creator.github.io](https://dstanfield-creator.github.io/).
 
 ### 🛡️ Security Operations
-Detection engineering, threat hunting, offensive technique references and lab ranges.
+Detection engineering, threat hunting, offensive technique references and the lab range they are tested in.
 
-- **[detections](https://github.com/Dstanfield-Creator/detections)** - detection-as-code: Sigma rules for a home SOC lab, mapped to MITRE ATT&CK and validated in CI
-- **[cyber-resources](https://github.com/Dstanfield-Creator/cyber-resources)** - 48 technique, tool and topic pages written from the defender's side, plus a HackTheBox tracker
-- [Ludus Cyber Range](https://github.com/Dstanfield-Creator/projects/tree/master/homelab/ludus-cyber-range) - reproducible AD attack / detection range (projects)
-- [Windows AD Logging Baseline for Detection](https://github.com/Dstanfield-Creator/server-administration/blob/master/docs/windows-ad-logging-baseline-for-detection.md) - audit policy, Sysmon, forwarding, attack-to-event map (server-administration)
+- **[detections](https://github.com/Dstanfield-Creator/detections)** - detection-as-code: Sigma rules for a home SOC lab, mapped to MITRE ATT&CK and validated in CI, plus the [Windows AD logging baseline](https://github.com/Dstanfield-Creator/detections/blob/main/docs/windows-ad-logging-baseline-for-detection.md) the rules depend on
+- **[cyber-resources](https://github.com/Dstanfield-Creator/cyber-resources)** - 48 technique, tool and topic pages written from the defender's side, the [Ludus cyber range](https://github.com/Dstanfield-Creator/cyber-resources/tree/master/labs/ludus-cyber-range) and a HackTheBox tracker
 
 ### 🖥️ Infrastructure & Platform
 Proxmox, backups, configuration management, hardening and the runbooks that keep it running.
 
-- **[lab-ops](https://github.com/Dstanfield-Creator/lab-ops)** - the homelab as code: Ansible host baseline, Docker Compose stacks, Renovate
-- **[server-administration](https://github.com/Dstanfield-Creator/server-administration)** - OpenSSH and systemd hardening, Proxmox CLI reference
-- **[guides](https://github.com/Dstanfield-Creator/guides)** - Proxmox API tokens with least privilege, new-VM checklist, SSH key-auth troubleshooting
-- [Proxmox Lab Platform](https://github.com/Dstanfield-Creator/projects/tree/master/homelab/proxmox-lab-platform) · [Proxmox Backup Server](https://github.com/Dstanfield-Creator/projects/tree/master/homelab/proxmox-backup-server) · [Docker Services Host](https://github.com/Dstanfield-Creator/projects/tree/master/homelab/docker-services-host) · [Minecraft Server](https://github.com/Dstanfield-Creator/projects/tree/master/homelab/minecraft-server) (projects)
-- [Lab Power Scripts](https://github.com/Dstanfield-Creator/projects/tree/master/tools/lab-power-scripts) · [lab-ssh-check](https://github.com/Dstanfield-Creator/projects/tree/master/tools/lab-ssh-check) - Wake-on-LAN and Proxmox API orchestration, parallel SSH reachability checks (projects)
-- [Terraform: Proxmox VM](https://github.com/Dstanfield-Creator/cloud-infrastructure/tree/master/terraform/proxmox-vm) · [Cloud-init for Proxmox and Cloud VMs](https://github.com/Dstanfield-Creator/cloud-infrastructure/blob/master/docs/cloud-init-for-proxmox-and-cloud-vms.md) (cloud-infrastructure)
+- **[lab-ops](https://github.com/Dstanfield-Creator/lab-ops)** - the homelab as code and in prose: Ansible host baseline, Compose services, Proxmox VM Terraform, `lab-up` / `lab-down` / `lab-ssh-check`, and the build write-ups ([Proxmox Lab Platform](https://github.com/Dstanfield-Creator/lab-ops/tree/main/docs/proxmox-lab-platform), [Proxmox Backup Server](https://github.com/Dstanfield-Creator/lab-ops/tree/main/docs/proxmox-backup-server), [Docker Services Host](https://github.com/Dstanfield-Creator/lab-ops/tree/main/docs/docker-services-host), [Minecraft Server](https://github.com/Dstanfield-Creator/lab-ops/tree/main/docs/minecraft-server))
+- **[server-administration](https://github.com/Dstanfield-Creator/server-administration)** - OpenSSH and systemd hardening, Proxmox CLI reference, and guides: [API tokens with least privilege](https://github.com/Dstanfield-Creator/server-administration/blob/master/guides/proxmox-api-token-least-privilege.md), [new-VM checklist](https://github.com/Dstanfield-Creator/server-administration/blob/master/guides/new-proxmox-vm-checklist.md), [SSH key-auth failures](https://github.com/Dstanfield-Creator/server-administration/blob/master/guides/ssh-key-auth-failures.md)
 - Write-up: [A backup job that failed silently for a month](https://dstanfield-creator.github.io/writeups/silent-backup-failure.html)
 
 ### 🌐 Network
 Zero-trust access, campus design, firewalls and the connectivity troubleshooting that goes with them.
 
-- [Tailscale Remote Access](https://github.com/Dstanfield-Creator/projects/tree/master/homelab/tailscale-remote-access) - WireGuard mesh, MagicDNS names as SSH handles, no port-forwards (projects)
-- [Raspberry Pi Travel Router](https://github.com/Dstanfield-Creator/projects/tree/master/homelab/pi-travel-router) - OpenWrt pocket router with a Tailscale exit node (projects)
-- [Cisco Enterprise Network Design](https://github.com/Dstanfield-Creator/projects/tree/master/infrastructure/cisco-enterprise-network-design) - multi-VLAN campus, ASA edge, DHCP relay (projects)
-- [Network Optimisation & Security Enhancement](https://github.com/Dstanfield-Creator/projects/tree/master/infrastructure/network-security-enhancement) - segmentation, Fortinet firewall/IDS, backup redesign (projects)
-- [Firewall Dead-Man Switch](https://github.com/Dstanfield-Creator/projects/tree/master/tools/firewall-deadman-switch) · [Remote Firewall Change Without Lockout](https://github.com/Dstanfield-Creator/guides/blob/master/runbooks/remote-firewall-change.md) · [UFW Baseline for Headless Servers](https://github.com/Dstanfield-Creator/server-administration/blob/master/hardening/ufw-baseline-linux.md)
-- [DNS, DHCP and Connectivity](https://github.com/Dstanfield-Creator/general-it/blob/master/troubleshooting/dns-dhcp-and-connectivity.md) · [Firewall Configuration](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/docs/firewall-configuration.md) · [Network Segmentation](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/docs/network-segmentation.md) · [Network Scanning](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/techniques/network-scanning.md)
+- **[network](https://github.com/Dstanfield-Creator/network)** - [Tailscale remote access](https://github.com/Dstanfield-Creator/network/tree/main/remote-access/tailscale-remote-access), [Pi travel router](https://github.com/Dstanfield-Creator/network/tree/main/remote-access/pi-travel-router), [Cisco enterprise network design](https://github.com/Dstanfield-Creator/network/tree/main/design/cisco-enterprise-network-design), the [firewall dead-man switch](https://github.com/Dstanfield-Creator/network/tree/main/firewall/firewall-deadman-switch) with its [runbook](https://github.com/Dstanfield-Creator/network/blob/main/firewall/remote-firewall-change.md) and [UFW baseline](https://github.com/Dstanfield-Creator/network/blob/main/firewall/ufw-baseline-linux.md), [DNS/DHCP troubleshooting](https://github.com/Dstanfield-Creator/network/blob/main/troubleshooting/dns-dhcp-and-connectivity.md), and a [network security enhancement case study](https://github.com/Dstanfield-Creator/network/tree/main/case-studies/network-security-enhancement)
 - Write-up: [The UFW rule was correct and still locked me out](https://dstanfield-creator.github.io/writeups/ufw-lockout.html)
 
 ### ☁️ Cloud
 Infrastructure as Code and cloud operations on AWS and Azure.
 
-- **[cloud-infrastructure](https://github.com/Dstanfield-Creator/cloud-infrastructure)** - Terraform AWS VPC/EC2 baseline, AWS and Azure CLI cheatsheet
-- [Cloud Services & VM Management](https://github.com/Dstanfield-Creator/projects/tree/master/infrastructure/cloud-vm-management) - Azure VM, storage and network operations with PowerShell and ServiceNow (projects)
+- **[cloud-infrastructure](https://github.com/Dstanfield-Creator/cloud-infrastructure)** - Terraform AWS VPC/EC2 baseline, AWS and Azure CLI cheatsheet, and the [Cloud Services & VM Management](https://github.com/Dstanfield-Creator/cloud-infrastructure/tree/master/case-studies/cloud-vm-management) case study
 
 ### 🤖 AI & Automation
 AI agents with real operational reach, held to the same controls as a junior admin's service account.
 
-- [Paperclip AI Agents](https://github.com/Dstanfield-Creator/projects/tree/master/homelab/paperclip-ai-agents) - self-hosted agent platform with least-privilege Proxmox/PBS tokens, protected VMs and a hardened host (projects)
-- n8n workflow automation for lab notifications and scheduled checks, running on the [Docker Services Host](https://github.com/Dstanfield-Creator/projects/tree/master/homelab/docker-services-host)
+- **[ai-automation](https://github.com/Dstanfield-Creator/ai-automation)** - [Paperclip AI agents](https://github.com/Dstanfield-Creator/ai-automation/tree/main/paperclip-ai-agents) with least-privilege Proxmox/PBS tokens, protected VMs and a hardened host; n8n automation runs on the lab's Docker host
 
 ### 📈 Monitoring & Observability
 Prometheus, Grafana and the alerts derived from real incidents.
 
-- **[MyDashboard](https://github.com/Dstanfield-Creator/projects/tree/master/poc/mydashboard)** - Prometheus + Grafana lab health dashboard design with alerts derived from real incidents (projects; the build repo goes public when it lands)
-- [Monitoring Stack (Compose)](https://github.com/Dstanfield-Creator/cloud-infrastructure/tree/master/docker-compose/monitoring-stack) - Prometheus, Alertmanager, Grafana, node_exporter, cAdvisor, blackbox (cloud-infrastructure)
-- [Prometheus node_exporter Setup](https://github.com/Dstanfield-Creator/server-administration/blob/master/monitoring/prometheus-node-exporter-setup.md) (server-administration) · [compose/monitoring](https://github.com/Dstanfield-Creator/lab-ops/tree/main/compose/monitoring) (lab-ops)
+- **[monitoring](https://github.com/Dstanfield-Creator/monitoring)** - [MyDashboard](https://github.com/Dstanfield-Creator/monitoring/tree/main/mydashboard) lab health dashboard design, the [reference](https://github.com/Dstanfield-Creator/monitoring/tree/main/compose/monitoring-stack) and [lab](https://github.com/Dstanfield-Creator/monitoring/tree/main/compose/lab-monitoring) Compose stacks, and [node_exporter setup](https://github.com/Dstanfield-Creator/monitoring/blob/main/docs/prometheus-node-exporter-setup.md)
 
 ### 🔧 General IT & Service Desk
 Methodology, identity administration and the tooling that takes repetition out of first-line work.
 
-- **[general-it](https://github.com/Dstanfield-Creator/general-it)** - troubleshooting methodology, AD and Microsoft 365 joiner-leaver checklist, command equivalents, change management
+- **[general-it](https://github.com/Dstanfield-Creator/general-it)** - troubleshooting methodology, AD and Microsoft 365 joiner-leaver checklist, command equivalents, change management, documentation vs live state
 - **[Powershell-Scripts](https://github.com/Dstanfield-Creator/Powershell-Scripts)** - Active Directory GUI tooling for a service desk
-- [Documentation vs Live State](https://github.com/Dstanfield-Creator/guides/blob/master/best-practices/documentation-vs-live-state.md) (guides)
 
 ---
 
