@@ -27,7 +27,7 @@ My GitHub contains documentation and guides across multiple domains:
 - **[PowerShell-Scripts](https://github.com/Dstanfield-Creator/PowerShell-Scripts)** - System automation and administration scripts
 
 ### **Networking** 🌐
-- **[cisco-enterprise-network-design](https://github.com/Dstanfield-Creator/cisco-enterprise-network-design)** - Enterprise network design, ASA firewalls, multilayer switches, DHCP/DNS configuration
+- **[cisco-enterprise-network-design](https://github.com/Dstanfield-Creator/projects/tree/master/infrastructure/cisco-enterprise-network-design)** - Enterprise network design, ASA firewalls, multilayer switches, DHCP/DNS configuration
 
 ### **Cloud Infrastructure** ☁️
 - **[cloud-infrastructure](https://github.com/Dstanfield-Creator/cloud-infrastructure)** - Terraform, Docker Compose, AWS examples, IaC templates
@@ -39,8 +39,30 @@ My GitHub contains documentation and guides across multiple domains:
 - **[guides](https://github.com/Dstanfield-Creator/guides)** - Runbooks, deployment checklists, troubleshooting guides, best practices
 
 ### **Projects & Homelab** 🏠
-- **[projects](https://github.com/Dstanfield-Creator/projects)** - Homelab builds, infrastructure POCs, custom tools
-- **[MyDashboard](https://github.com/Dstanfield-Creator/MyDashboard)** - Monitoring and analytics dashboard
+Each project is documented in its own folder of the **[projects](https://github.com/Dstanfield-Creator/projects)** repo.
+
+**Homelab**
+- **[Proxmox Lab Platform](https://github.com/Dstanfield-Creator/projects/tree/master/homelab/proxmox-lab-platform)** - Single-node PVE 9 host: storage, bridges, guest inventory, operating modes, power management, backups
+- **[Ludus Cyber Range](https://github.com/Dstanfield-Creator/projects/tree/master/homelab/ludus-cyber-range)** - Reproducible AD attack / detection range: router, Server 2022 DC, Win 11 workstation, Kali
+- **[Proxmox Backup Server](https://github.com/Dstanfield-Creator/projects/tree/master/homelab/proxmox-backup-server)** - Dedicated PBS 4 VM, token ACL gotchas, prune policy, root cause of silent backup failures
+- **[Docker Services Host](https://github.com/Dstanfield-Creator/projects/tree/master/homelab/docker-services-host)** - Service platform migrated from a Raspberry Pi 5 to a PVE VM (NPM, n8n, Grafana, RustDesk)
+- **[Tailscale Remote Access](https://github.com/Dstanfield-Creator/projects/tree/master/homelab/tailscale-remote-access)** - Zero-trust access: MagicDNS names as SSH handles, 1Password SSH agent, no port-forwards
+- **[Paperclip AI Agents](https://github.com/Dstanfield-Creator/projects/tree/master/homelab/paperclip-ai-agents)** - Self-hosted AI agent platform with least-privilege Proxmox/PBS tokens and protected VMs
+- **[Minecraft Server](https://github.com/Dstanfield-Creator/projects/tree/master/homelab/minecraft-server)** - systemd-managed game server on bare metal, Tailscale access, lifecycle-managed with the lab
+- **[Raspberry Pi Travel Router](https://github.com/Dstanfield-Creator/projects/tree/master/homelab/pi-travel-router)** - OpenWrt + Tailscale exit-node pocket router build guide
+
+**Infrastructure**
+- **[Network Optimisation & Security Enhancement](https://github.com/Dstanfield-Creator/projects/tree/master/infrastructure/network-security-enhancement)** - Segmentation, Fortinet firewall/IDS, Veeam/Acronis backup, PowerShell automation (Next Day Heroes, 2022–2025)
+- **[Cloud Services & VM Management](https://github.com/Dstanfield-Creator/projects/tree/master/infrastructure/cloud-vm-management)** - Azure VM/storage/network operations, PowerShell automation, ServiceNow/ITIL (Kinetic IT, 2021–2022)
+- **[Cisco Enterprise Network Design](https://github.com/Dstanfield-Creator/projects/tree/master/infrastructure/cisco-enterprise-network-design)** - Multi-VLAN campus with ASA edge, multilayer switching, DHCP relay and DNS
+
+**Tools**
+- **[Lab Power Scripts](https://github.com/Dstanfield-Creator/projects/tree/master/tools/lab-power-scripts)** - `lab-up` / `lab-down`: Wake-on-LAN + Proxmox API orchestration with research / ds-lab modes
+- **[lab-ssh-check](https://github.com/Dstanfield-Creator/projects/tree/master/tools/lab-ssh-check)** - Parallel SSH reachability and key-auth checker that classifies every failure
+- **[Firewall Dead-Man Switch](https://github.com/Dstanfield-Creator/projects/tree/master/tools/firewall-deadman-switch)** - systemd timer that rolls back a remote firewall change if it locks you out
+
+**Proof of Concept**
+- **[MyDashboard](https://github.com/Dstanfield-Creator/projects/tree/master/poc/mydashboard)** - Prometheus + Grafana lab health dashboard design with alerts derived from real incidents · [repo](https://github.com/Dstanfield-Creator/MyDashboard)
 
 ### **General IT** 🔧
 - **[general-it](https://github.com/Dstanfield-Creator/general-it)** - IT operations, system administration, troubleshooting
@@ -99,4 +121,4 @@ Desktop support, systems administration, Microsoft 365, disaster recovery, compl
 
 ---
 
-**License:** MIT | **Last Updated:** July 2026
+**License:** MIT | **Last Updated:** October 2026
