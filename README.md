@@ -46,11 +46,6 @@ Infrastructure as Code and cloud operations on AWS and Azure.
 
 - **[cloud-infrastructure](https://github.com/Dstanfield-Creator/cloud-infrastructure)** - Terraform AWS VPC/EC2 baseline, AWS and Azure CLI cheatsheet, and the [Cloud Services & VM Management](https://github.com/Dstanfield-Creator/cloud-infrastructure/tree/master/case-studies/cloud-vm-management) case study
 
-### 🤖 AI & Automation
-AI agents with real operational reach, held to the same controls as a junior admin's service account.
-
-- **[ai-automation](https://github.com/Dstanfield-Creator/ai-automation)** - [Paperclip AI agents](https://github.com/Dstanfield-Creator/ai-automation/tree/main/paperclip-ai-agents) with least-privilege Proxmox/PBS tokens, protected VMs and a hardened host; n8n automation runs on the lab's Docker host
-
 ### 🔧 General IT & Service Desk
 Methodology, identity administration and the tooling that takes repetition out of first-line work.
 
