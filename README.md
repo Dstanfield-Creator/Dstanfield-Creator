@@ -70,7 +70,7 @@ Service desk methods, identity administration and PowerShell tooling.
 - **Cato Networks Zero Trust Security Essentials** (Jul 2026)
 - **Sophos Central Endpoint & Server v4.0 Engineer (ET15)** (Aug 2023, expires Nov 2030)
 - **Sophos Firewall Administrator**
-- **Acronis Cyber Security Associate Advanced** (expires Jul 2027)
+- **Acronis Cyber Security Associate** (expires Jul 2027)
 - **ITIL Foundation (PeopleCert)** (Jul 2022)
 
 ---
