@@ -87,7 +87,7 @@ Match-day IT and networking for three Matildas games at HBF Park, network infras
 Legacy file server to SharePoint and OneDrive migration, backups and disaster recovery, desktop and Microsoft 365 support, around 20 how-to guides and 5 IT policies
 
 **NXDH** - System Engineer, BizLinQ contract (Jan 2023–Jan 2024)  
-Physical server builds, Hyper-V and VMware ESXi/vCenter virtualisation, Zabbix health and disk monitoring, network support for South West clients
+Built around 10 physical servers in two clusters, Hyper-V and VMware ESXi/vCenter virtualisation, Zabbix health and disk monitoring, network support for South West clients
 
 **NXDH** - Junior System Engineer (Jan 2022–Dec 2022)  
 Server administration, virtualisation, Active Directory, endpoint management, patching, documentation, and client website builds (HTML, CSS, JavaScript) with web/VPS hosting
