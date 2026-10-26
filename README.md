@@ -90,7 +90,7 @@ Desktop support, systems administration, Microsoft 365, disaster recovery, compl
 On-site/remote infrastructure support, network monitoring and managed services for South West clients
 
 **NXDH** - Junior System Engineer (Jan 2022–Dec 2022)  
-Server administration, virtualisation, Active Directory, endpoint management, patching and documentation
+Server administration, virtualisation, Active Directory, endpoint management, patching, documentation, and client website builds (HTML, CSS, JavaScript) with web/VPS hosting
 
 **Kinetic IT / Woodside** - Senior Service Desk Officer, Contract (Jan 2021–Dec 2021)  
 Escalated IT support, team mentoring, policy enforcement
