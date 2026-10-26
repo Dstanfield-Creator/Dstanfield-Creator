@@ -9,7 +9,7 @@ Cybersecurity professional focused on SIEM/EDR triage, Zero Trust architecture, 
 ## 🔐 Current Focus
 
 - **SIEM & EDR Operations** - Alert triage, threat investigation, incident response
-- **Detection Engineering** - Writing and tuning detection rules
+- **Detection Engineering** - Writing and tuning Sigma detection rules in a home SOC lab
 - **Zero Trust / SASE** - Security architecture and implementation
 - **Homelab Automation** - Docker, Proxmox, n8n, self-hosted infrastructure
 - **Threat Intelligence** - Security research and threat actor tracking
@@ -70,32 +70,43 @@ Methodology, identity administration and the tooling that takes repetition out o
 - **Acronis Cyber Security Associate Advanced**
 - **Sophos Firewall Administrator**
 - **AWS Academy Cloud Foundations**
-- **Diploma of Information and Technology Advanced Networking** (South Metropolitan TAFE, 2020)
+- **Sophos Central Endpoint & Server Engineer (ET15)** (Aug 2023)
+- **ITIL Foundation** (Jul 2022)
+- **HTB Certified Penetration Testing Specialist (CPTS)** - in progress
 
 ---
 
 ## 💼 Professional Experience
 
 **Quartex** - Junior SecOps Analyst (Feb 2026–Present)  
-SIEM/EDR triage, detection engineering, threat investigation, Zero Trust operations
+Incident triage across CrowdStrike Falcon, Defender XDR, Datadog, Entra ID and AWS; cloud EDR coverage, SOC 2 access reviews, pen-test remediation, Zero Trust operations
 
 **VenuesWest** - Network Analyst (Jan 2025–Jan 2026)  
 Network infrastructure, digital signage, risk assessments, business analysis
 
-**NXDH (Next Day Heroes)** - Systems Engineer (Jan 2021–Jan 2025)  
-Infrastructure design, server administration, virtualization, Active Directory, endpoint management
+**Aeris Networks** - System Administrator / Desktop Support, Contract (Feb 2024–Jan 2025)  
+Desktop support, systems administration, Microsoft 365, disaster recovery, compliance support
 
-**Kinetic IT / Woodside** - Senior Service Desk Officer (Jan 2022–May 2023)  
-Escalated IT support, team mentoring, system administration, policy enforcement
+**NXDH** - System Engineer, BizLinQ contract (Jan 2023–Jan 2024)  
+On-site/remote infrastructure support, network monitoring and managed services for South West clients
 
-**Kinetic IT / Water Corporation** - Service Desk Analyst (Jan 2021–Jan 2022)  
+**NXDH** - Junior System Engineer (Jan 2022–Dec 2022)  
+Server administration, virtualisation, Active Directory, endpoint management, patching and documentation
+
+**Kinetic IT / Woodside** - Senior Service Desk Officer (Jan 2021–Dec 2021)  
+Escalated IT support, team mentoring, policy enforcement
+
+**Kinetic IT / Water Corporation** - Service Desk Analyst (Jan 2020–Jan 2021)  
 Desktop support, Microsoft 365, user account management, cloud/on-premise systems
 
-**BixlinQ** - Junior Systems Engineer (Jan 2023–Jan 2024)  
-On-site/off-site support, network monitoring, hardware configuration, managed services
+**Aussie Broadband** - Help Desk Specialist (Jan 2019–Jan 2020)  
+Customer and technical support, ticket management, broadband/ISP support
 
-**Aeris Networks** - System Administrator Desktop Support (May 2023–Jul 2024)  
-Desktop support, systems administration, Microsoft 365, disaster recovery, compliance support
+---
+
+## 🎓 Education
+
+- **Diploma of Information Technology and Advanced Networking** (South Metropolitan TAFE, 2019–2020)
 
 ---
 
