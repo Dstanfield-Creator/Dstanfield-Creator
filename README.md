@@ -12,7 +12,7 @@ Cybersecurity professional focused on SIEM/EDR triage, Zero Trust architecture, 
 - **Detection Engineering** - Writing and tuning Sigma detection rules in a home SOC lab
 - **Zero Trust / SASE** - Security architecture and implementation
 - **Homelab Automation** - Docker, Proxmox, n8n, self-hosted infrastructure
-- **Threat Intelligence** - Security research and threat actor tracking
+- **Security Research** - HTB CPTS labs and defender-side technique write-ups
 
 ---
 
@@ -65,14 +65,13 @@ Methodology, identity administration and the tooling that takes repetition out o
 
 ## 📜 Certifications
 
-- **Cato Zero Trust Security Essentials** (Jul 2026)
-- **Fortinet FCA Cybersecurity**
-- **Acronis Cyber Security Associate Advanced**
-- **Sophos Firewall Administrator**
-- **AWS Academy Cloud Foundations**
-- **Sophos Central Endpoint & Server Engineer (ET15)** (Aug 2023)
-- **ITIL Foundation** (Jul 2022)
 - **HTB Certified Penetration Testing Specialist (CPTS)** - in progress
+- **Fortinet Certified Associate in Cybersecurity** (Aug 2025, expires Aug 2027)
+- **Cato Networks Zero Trust Security Essentials** (Jul 2026)
+- **Sophos Central Endpoint & Server v4.0 Engineer (ET15)** (Aug 2023, expires Nov 2030)
+- **Sophos Firewall Administrator**
+- **Acronis Cyber Security Associate Advanced** (expires Jul 2027)
+- **ITIL Foundation (PeopleCert)** (Jul 2022)
 
 ---
 
@@ -93,13 +92,13 @@ On-site/remote infrastructure support, network monitoring and managed services f
 **NXDH** - Junior System Engineer (Jan 2022–Dec 2022)  
 Server administration, virtualisation, Active Directory, endpoint management, patching and documentation
 
-**Kinetic IT / Woodside** - Senior Service Desk Officer (Jan 2021–Dec 2021)  
+**Kinetic IT / Woodside** - Senior Service Desk Officer, Contract (Jan 2021–Dec 2021)  
 Escalated IT support, team mentoring, policy enforcement
 
-**Kinetic IT / Water Corporation** - Service Desk Analyst (Jan 2020–Jan 2021)  
+**Kinetic IT / Water Corporation** - Service Desk Analyst, Contract (Jan 2020–Jan 2021)  
 Desktop support, Microsoft 365, user account management, cloud/on-premise systems
 
-**Aussie Broadband** - Help Desk Specialist (Jan 2019–Jan 2020)  
+**Aussie Broadband** - Help Desk Specialist (Jan 2019–Jan 2020, alongside TAFE study)  
 Customer and technical support, ticket management, broadband/ISP support
 
 ---
