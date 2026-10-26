@@ -68,7 +68,7 @@ Service desk methods, identity administration and PowerShell tooling.
 - **HTB Certified Penetration Testing Specialist (CPTS)** - in progress
 - **Fortinet Certified Associate in Cybersecurity** (Aug 2025, expires Aug 2027)
 - **Cato Networks Zero Trust Certification** (Jul 2026)
-- **Sophos Central Endpoint & Server v4.0 Engineer (ET15)** (Aug 2023, expires Nov 2030)
+- **Sophos Central Endpoint & Server v4.0 Engineer (ET15)** (Aug 2023)
 - **Sophos Firewall Administrator**
 - **Acronis Cyber Security Associate** (expires Jul 2027)
 - **ITIL Foundation (PeopleCert)** (Jul 2022)
