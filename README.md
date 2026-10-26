@@ -57,7 +57,7 @@ Service desk methods, identity administration and PowerShell tooling.
 ## Tech Stack
 
 **Security:** CrowdStrike Falcon, Microsoft Defender XDR, Datadog, Entra ID, Vanta, Cato SASE  
-**Infrastructure:** Proxmox, Docker, n8n, Ansible, Tailscale  
+**Infrastructure:** Proxmox, VMware ESXi/vCenter, Hyper-V, Zabbix, Docker, n8n, Ansible, Tailscale  
 **Languages:** PowerShell, Python, Bash  
 **Tools:** Kali Linux, Burp Suite, Nmap, Wireshark, Metasploit
 
@@ -87,7 +87,7 @@ Match-day IT and networking for three Matildas games at HBF Park, network infras
 Legacy file server to SharePoint and OneDrive migration, backups and disaster recovery, desktop and Microsoft 365 support, around 20 how-to guides and 5 IT policies
 
 **NXDH** - System Engineer, BizLinQ contract (Jan 2023–Jan 2024)  
-On-site/remote infrastructure support, network monitoring and managed services for South West clients
+Physical server builds, Hyper-V and VMware ESXi/vCenter virtualisation, Zabbix health and disk monitoring, network support for South West clients
 
 **NXDH** - Junior System Engineer (Jan 2022–Dec 2022)  
 Server administration, virtualisation, Active Directory, endpoint management, patching, documentation, and client website builds (HTML, CSS, JavaScript) with web/VPS hosting
