@@ -81,7 +81,7 @@ Service desk methods, identity administration and PowerShell tooling.
 Incident triage across CrowdStrike Falcon, Defender XDR, Datadog, Entra ID and AWS; cloud EDR coverage, SOC 2 access reviews, pen-test remediation, Zero Trust operations
 
 **VenuesWest** - Network Analyst (Jan 2025–Jan 2026)  
-Network infrastructure, digital signage, risk assessments, business analysis
+Match-day IT and networking for three Matildas games at HBF Park, network infrastructure, digital signage, risk assessments
 
 **Aeris Networks** - System Administrator / Desktop Support, Contract (Feb 2024–Jan 2025)  
 Desktop support, systems administration, Microsoft 365, disaster recovery, compliance support
