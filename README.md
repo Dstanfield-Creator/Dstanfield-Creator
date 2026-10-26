@@ -84,7 +84,7 @@ Incident triage across CrowdStrike Falcon, Defender XDR, Datadog, Entra ID and A
 Match-day IT and networking for three Matildas games at HBF Park, network infrastructure, digital signage, risk assessments
 
 **Aeris Networks** - System Administrator / Desktop Support, Contract (Feb 2024–Jan 2025)  
-Legacy file server to SharePoint and OneDrive migration, backups and disaster recovery, desktop and Microsoft 365 support, how-to guides
+Legacy file server to SharePoint and OneDrive migration, backups and disaster recovery, desktop and Microsoft 365 support, around 20 how-to guides and 5 IT policies
 
 **NXDH** - System Engineer, BizLinQ contract (Jan 2023–Jan 2024)  
 On-site/remote infrastructure support, network monitoring and managed services for South West clients
